@@ -16,16 +16,16 @@ router.get("/", function (req, resp) {
 });
 
 var spotifyApi = new SpotifyWebApi({
-    clientId: 'af152524f1c14b06b3f05eb7dc238ff1',
-    clientSecret: '463867271f724fed8168b6bb6d0a8e6a',
+    clientId: ,
+    clientSecret: ,
     redirectUri: '/'
 });
 
 var T = new Twit({
-    consumer_key: "DaFfb0HVc9m3Ote5X4DaAaSP8",
-    consumer_secret: 'exgqxLF1gWvl0nLHb8CPT487GPe8jqwBqYYPIwowJuLhNGFw5Q',
-    access_token: '340578742-UJBeTDOsBeJExCZu363jsvJbs2JAV9iuMLgWibBS',
-    access_token_secret: 'sRyjflkBSga76ETr9Q77GbarLZT4ZXyFGf9nwQzibyt3x'
+    consumer_key: ,
+    consumer_secret: ,
+    access_token: ,
+    access_token_secret: 
 });
 
 
